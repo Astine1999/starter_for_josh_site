@@ -1,8 +1,8 @@
 <?php
-/*
-Template Name: CV
-*/
-?>
+    /*
+    Template Name: CV
+    */
+    ?>
 <?php require_once('page_header.php'); ?>
 <div class="container-fluid maincontainer">
     <div class="container">
@@ -23,8 +23,7 @@ Template Name: CV
         
     </div><!--post class-->
 
-   
-<?php endwhile; ?>
+   <?php endwhile; ?>
     
     <?php else: ?>
     <div class="post">
