@@ -17,3 +17,8 @@ register_nav_menus( array(
     'primary' => __( 'Primary Menu', 'top-menu' ),
 ) );
 ?>
+<?php
+register_nav_menus( array(
+    'primary' => __( 'Primary Menu', 'top-menu' ),
+) );
+?>
