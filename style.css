@@ -36,13 +36,13 @@ Version: 1
     color: white;
     text-align: right;
     padding-bottom: 10%;
-    margin-right: 15%;
+    margin-right: 20%;
     margin-top: 140px;
 }
 
 .tag h1{
     width: 141px;
-    font-size: 7em;
+    font-size: 6em;
     letter-spacing: 10px;
     font-weight: 800;
     line-height: 75%;
