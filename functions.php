@@ -12,4 +12,8 @@ function load_my_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'load_my_scripts');
 ?>
-With the last argument array('jquery') you're telling WP to include the script AFTER jQuery. Note that every script must use a different handle (first parameter).
+<?php
+register_nav_menus( array(
+    'primary' => __( 'Primary Menu', 'top-menu' ),
+) );
+?>
