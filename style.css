@@ -7,7 +7,7 @@ Author URI: http://joshwhitkin.com
 Version: 1
 */ 
 .bg1 {
-    background-image: url("images/image\ 1.jpg");
+    background-image: url("images/image1.jpg");
     background-size: cover;
     
 }
@@ -41,7 +41,7 @@ Version: 1
 }
 
 .tag h1{
-    width: 141px;
+    width: 441px;
     font-size: 6em;
     letter-spacing: 10px;
     font-weight: 800;
@@ -115,7 +115,6 @@ font-weight: 30px;
 .date{
     font-style: italic;
     font-size: 0.8em;
-    text-align: left;
 }
 
 .readmore {
@@ -139,12 +138,11 @@ footer p{
     padding: 5%;
 }
 
-.smallpage-bg {
-    width: 100%;
+.smallpage_bg {
+width: 100%;
 background:url("images/page_header_bg.jpg") no-repeat center center;
 background-size: cover;/*make the background image cover the whole div proportionally*/
 height: 40vh; /*Viewport Height (vh) — This unit is based on the height of the viewport. A value of 1vh is equal to 1% of the viewport height. */
-
 }
 
 .smallpage-title{ 
