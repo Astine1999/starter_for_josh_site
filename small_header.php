@@ -37,7 +37,7 @@
 </head>
 <body>
     
-<header class="container-fluid small_herobg">   <!-- div for the main image the stretches to the edge of the page- -->
+<header class="container-fluid small_herobg">  <!-- div for the main image the stretches to the edge of the page- -->
 
     <nav class="navbar navbar-expand-md navbar-dark">
         <!-- Brand -->
