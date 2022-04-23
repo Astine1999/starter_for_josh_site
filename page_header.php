@@ -36,7 +36,9 @@
 <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/images/favicon.ico">
 </head>
 <body>
-    <header class="container-fluid smallpage_bg">   <!-- div for the main image the stretches to the edge of the page- -->
+
+<header class="container-fluid" style="background-size:cover; height:40vh; background-image: url(<?php the_field('projectheaderbackgroundimage') ?>);">
+
     <nav class="navbar navbar-expand-md navbar-dark">
         <!-- Brand -->
         <a class="navbar-brand" href="#"><span class="josh">JOSH</span><span class="orange">WHITKIN</span></a>
@@ -66,8 +68,6 @@
       </nav> 
    
       <div class="smallpage-tag"><!-- div that holds the content in the middle of the page-->
-        <h1 class="smallpage-title"> </h1>
+<h1 class="smallpage-title"><?php the_field('projectsheadertitle'); ?> </h1>
               </div><!-- container-->
-<!—remove all our css styles and any Javascript code. Wordpress automatically calls javascript /jquery elsewhere, calls to javascript are not needed in the header or the footer now- UNLESS you have calls to google or typkit fonts- they can stay-->
-              <?php wp_head(); ?> <!-- very important that this is added--> 
           </header>
