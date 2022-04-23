@@ -66,7 +66,7 @@
       </nav> 
    
       <div class="smallpage-tag"><!-- div that holds the content in the middle of the page-->
-        <h1 class="smallpage-title"> Projects</h1>
+        <h1 class="smallpage-title"> </h1>
               </div><!-- container-->
 <!—remove all our css styles and any Javascript code. Wordpress automatically calls javascript /jquery elsewhere, calls to javascript are not needed in the header or the footer now- UNLESS you have calls to google or typkit fonts- they can stay-->
               <?php wp_head(); ?> <!-- very important that this is added--> 
