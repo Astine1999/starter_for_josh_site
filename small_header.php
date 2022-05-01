@@ -9,9 +9,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet"> 
-
+<!-- 
 <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="responsive.css" />
+<link rel="stylesheet" href="responsive.css" /> -->
 <title>   
     <?php
               if (function_exists('is_tag') && is_tag()) {
